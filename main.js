@@ -14,7 +14,7 @@ Existente (id) {
     return this.products.find((producto) => producto.id === id)
 }
 getProductById(id){
-    !this.Existente(id) , console.log("Not Found") : console.log(this.Existente(id));
+    !this.Existente(id) , console.log("Not Found") , console.log(this.Existente(id));
 }
 }
 
